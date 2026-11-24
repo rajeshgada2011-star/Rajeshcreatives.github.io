@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJESH CREATIVE</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080d18;
+  color: white;
+}
+
+header {
+  background: #101b30;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: #00bfff;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 15px;
+  background: linear-gradient(135deg,#07152b,#123d72);
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  color: #00bfff;
+}
+
+.hero p {
+  margin-bottom: 25px;
+  line-height: 1.7;
+}
+
+.btn {
+  background: #00aaff;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+section {
+  padding: 55px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #00bfff;
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: #121e32;
+  padding: 30px 20px;
+  border-radius: 12px;
+  border: 1px solid #205080;
+}
+
+.card h3 {
+  color: #00c8ff;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #c5d0df;
+  line-height: 1.6;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 18px;
+  color: #00c8ff;
+}
+
+.about {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+footer {
+  background: #101b30;
+  text-align: center;
+  padding: 25px;
+  color: #aaa;
+}
+
+@media(max-width:600px) {
+  .hero h1 {
+    font-size: 29px;
+  }
+
+  header {
+    justify-content: center;
+    gap: 15px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">RAJESH CREATIVE</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>WELCOME TO <span>RAJESH CREATIVE</span></h1>
+
+  <p>
+    Explore Creativity.<br>
+    Discover Technology.<br>
+    Create Something Amazing.
+  </p>
+
+  <a href="#services" class="btn">Explore Now</a>
+</div>
+
+<section id="about">
+  <h2>ABOUT ME</h2>
+  <div class="about">
+    <p>
+      Welcome to Rajesh Creative!
+      This is my personal creative website.
+      Explore AI, technology, photo editing
+      and video editing ideas.
+    </p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>MY CREATIVE WORLD</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>AI PHOTO PROMPTS</h3>
+      <p>Explore amazing AI photo editing prompts.</p>
+      <a href="#contact">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h3>AI VIDEO PROMPTS</h3>
+      <p>Discover cinematic video creation ideas.</p>
+      <a href="#contact">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h3>GRAPHIC DESIGN</h3>
+      <p>Discover creative graphic design inspiration.</p>
+      <a href="#contact">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h3>TECHNOLOGY</h3>
+      <p>Explore digital tools and technology.</p>
+      <a href="#contact">Explore More</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>CONTACT ME</h2>
+  <p>Thank you for visiting RAJESH CREATIVE!</p>
+</section>
+
+<footer>
+  <p>© 2026 RAJESH CREATIVE</p>
+  <p>Created with Creativity ❤️</p>
+</footer>
+
+</body>
+</html>
